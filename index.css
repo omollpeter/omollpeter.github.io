@@ -274,9 +274,9 @@ nav a::after {
     text-align: right;
 }
 
-.feature-title-description:nth-child(2) p {
+/* .feature-title-description:nth-child(2) p {
 
-}
+} */
 
 .feature-title-description p {
     max-width: 75%;
@@ -328,10 +328,10 @@ nav a::after {
     transition: bottom .6s ease, left .6s ease;
 }
 
-.img-container-right img:hover {
+/* .img-container-right img:hover {
 
 }
 
 .img-container-left img:hover {
 
-}
+} */
