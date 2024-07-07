@@ -226,3 +226,112 @@ nav a::after {
     background-color: #0b0d1a;
     color: #fff;
 }
+
+.features-content-container {
+    max-width: 80%;
+    height: 90vh;
+    /* margin: auto; */
+}
+
+.features-title {
+    font-family: Lexend Deca, sans-serif;
+    color: #0b0d1a;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+.key-features {
+    max-width: 60%;
+    margin: 20px auto;
+}
+
+.features-content {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 40px;
+}
+
+.feature-title-description {
+    width: 45%;
+}
+
+.feature-title-description h3 {
+    font-family: Lexend, sans-serif;
+    margin-bottom: 0;
+    font-size: 25px;
+    /* opacity: .5; */
+}
+
+.feature-title-description h3 span {
+    color: #c02567;
+}
+
+
+.feature-title-description:nth-child(2) h3,
+.feature-title-description:nth-child(2) p {
+    text-align: right;
+}
+
+.feature-title-description:nth-child(2) p {
+
+}
+
+.feature-title-description p {
+    max-width: 75%;
+    font-size: 15px;
+    opacity: .6;
+}
+
+.feature-title-description:nth-child(2) p {
+    margin-left: auto;
+}
+
+.feature-image:nth-child(odd) .img-container {
+    margin-right: auto;
+}
+
+.feature-image .img-container{
+    margin-left: auto;
+}
+
+.img-container {
+    margin: 20px 100px;
+    position: relative; /* Make the container the positioning reference */
+    width: 250px; /* Adjust width as needed */
+    height: 180px; /* Adjust height as needed */
+    background-color: #b45555; /* Optional background color for the div */
+    padding: 20px; /* Add some padding for content */
+}
+
+
+
+.img-container-right img{
+    position: absolute; /* Position the image absolutely within the container */
+    bottom: 10%; /* Place the image at the top of the container */
+    left: -10%; /* Place the image at the left of the container */
+    width: 100%; /* Stretch the image to fill the container width */
+    height: 100%; /* Stretch the image to fill the container height */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    transition: top .6s ease, left .6s ease;
+}
+
+
+.img-container-left img{
+    position: absolute; /* Position the image absolutely within the container */
+    bottom: 10%; /* Place the image at the top of the container */
+    right: -10%; /* Place the image at the left of the container */
+    width: 100%; /* Stretch the image to fill the container width */
+    height: 100%; /* Stretch the image to fill the container height */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    transition: bottom .6s ease, left .6s ease;
+}
+
+.img-container-right img:hover {
+
+}
+
+.img-container-left img:hover {
+
+}
